@@ -570,7 +570,6 @@ setTimeout(maneaRandom, 5);
 
 function maneaRandom() {
 maneaLocation = servermanele+pathmanele+maneaNametw;
-document.getElementById("test").innerHTML = maneaName + "<br>" + maneaLocation;
 console.log("=======================\n\nManelizor by Wreeper v1.0 loaded succesfully.\nDiscord: wreeper#7997\nYouTube: https://youtube.com/c/DariusGamingOfficial/\nGitHub repository: https://github.com/Wreeper/manelizor\n\nDaca vezi acest mesaj, inseamna ca scriptul functioneaza si esti gata de a incepe sa pui elemente pentru a fi inlocuite cu manele random.\n\n=======================");
 }
 

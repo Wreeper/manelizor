@@ -12,6 +12,8 @@ Multumiri speciale:
 Rmly @ rmly.dev - Hosting darius1.xyz & fisierul original de pe YouTube al melodiei "Curwa" care nu putea fi descarcat cu API normal din cauza restrictiei de varsta.
 
 
+(!) Dani Mocanu a dezactivat redarea pe alte site-uri a videoclipurilor sale. Asta inseamna ca variabila "maneaUrlEmbed" va fi nefolositoare in cazul clipurillor cu el. Puteti insa sa faceti redirect.
+
 
 
 ChangeLog:
@@ -42,7 +44,6 @@ Adaugate manelele
 
 
 
-var cineafacutmanelizator = "wreeper";
 
 var servermanele;
 var pathmanele;
@@ -52,17 +53,10 @@ var maneaLocation = undefined;
 var maneaName;
 var maneaNametw;
 var maneaUrl;
-var maneaUrlLink = "https://youtu.be/" + maneaUrl;
-var maneaUrlEmbed = "https://youtube.com/embed/" + maneaUrlLink;
+var maneaUrlLink;
+var maneaUrlEmbed;
 
-var manealistd = setTimeout(maneaList, 0);
-
-if (cineafacutmanelizator == "wreeper") {
-manealistd;
-} else {
-console.log("Eroare la incarcarea scriptului manelizator.\nProblema precisa: Creditele au fost sterse.\nFix: var cineafacutmanelizator = \"wreeper\";");
-clearTimeout(manealistd);
-}
+setTimeout(maneaList, 0);
 
 
 function maneaList() {
@@ -578,6 +572,8 @@ setTimeout(maneaRandom, 5);
 
 
 function maneaRandom() {
+maneaUrlLink = "https://youtu.be/" + maneaUrl;
+maneaUrlEmbed = "https://youtube.com/embed/" + maneaUrl;
 maneaLocation = servermanele+pathmanele+maneaNametw;
 console.log("=======================\n\nManelizor de Wreeper v1.0 incarcat cu succes.\nDiscord: wreeper#7997\nYouTube: https://youtube.com/c/DariusGamingOfficial/\nGitHub repository: https://github.com/Wreeper/manelizor\n\n=======================");
 }

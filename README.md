@@ -17,4 +17,5 @@ document.getElementById("oriceiddorestitu").src = maneaLocation;
 ```
 
 Un exemplu de website ce foloseste script-ul:
+
 <a href="rm.darius1.xyz">rm.darius1.xyz</a> - redirect catre o manea random folosind manelizor

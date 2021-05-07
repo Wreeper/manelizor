@@ -565,6 +565,36 @@ maneaUrl = "w-YUQcJkh30";
 maneaName = "Dani Mocanu - 6 gloante";
 maneaNametw = "Dani%20Mocanu%20-%206%20Gloante%20Official%20Video.mp3";
 maneaUrl = "2elanqUNPYo";
+} else if (maneaNumber == 94) {
+/* Manea numarul 94 */
+maneaName = "Florin Mitroi & Boby de la Arges - Voi fraieri fara masura";
+maneaNametw = "Florin%20Mitroi%20&%20Boby%20de%20la%20Arges%20-%20Voi%20fraieri%20fara%20masura%20NOU%20NOU%20NOU.mp3";
+maneaUrl = "Q7T01i-tgos";
+} else if (maneaNumber == 95) {
+/* Manea numarul 95 */
+maneaName = "Cristi Mega - Nu suport miros de fraier";
+maneaNametw = "mirosdefraier.mp3";
+maneaUrl = "BVsygWz_ypo";
+} else if (maneaNumber == 96) {
+/* Manea numarul 96 */
+maneaName = "Florin Salam - Saint Tropez";
+maneaNametw = "Florin%20Salam%20-%20Saint%20Tropez%20[official%20video].mp3";
+maneaUrl = "tXO2QtjixaM";
+} else if (maneaNumber == 97) {
+/* Manea numarul 97 */
+maneaName = "Florin Salam - Capitanul";
+maneaNametw = "Florin%20Salam%20-%20Capitanul%20HIT%202019.mp3";
+maneaUrl = "X7W4YV5g6sk";
+} else if (maneaNumber == 98) {
+/* Manea numarul 98 */
+maneaName = "Florin Salam - La Roma sau Paris";
+maneaNametw = "Florin%20Salam%20-%20La%20Roma%20sau%20Paris%20[fara%20colaj].mp3";
+maneaUrl = "UivzOgOwzz4";
+} else if (maneaNumber == 99) {
+/* Manea numarul 99 */
+maneaName = "Florin Salam - Eu sunt bomba nucleara";
+maneaNametw = "FLORIN%20SALAM%20-%20EU%20SUNT%20BOMBA%20NUCLEARA.mp3";
+maneaUrl = "Lvqb_vs2wW4";
 }
 setTimeout(maneaRandom, 5);
 }

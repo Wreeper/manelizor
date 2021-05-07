@@ -595,6 +595,11 @@ maneaUrl = "UivzOgOwzz4";
 maneaName = "Florin Salam - Eu sunt bomba nucleara";
 maneaNametw = "FLORIN%20SALAM%20-%20EU%20SUNT%20BOMBA%20NUCLEARA.mp3";
 maneaUrl = "Lvqb_vs2wW4";
+} else if (maneaNumber == 100) {
+/* Manea numarul 100 */
+maneaName = "Dani Mocanu - Camora";
+maneaNametw = "Dani%20Mocanu%20-%20Camora%20Official%20Video.mp3";
+maneaUrl = "K5Q-ZJyhckg";
 }
 setTimeout(maneaRandom, 5);
 }

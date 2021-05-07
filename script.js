@@ -60,7 +60,7 @@ setTimeout(maneaList, 0);
 
 
 function maneaList() {
-maneaNumber = (Math.floor(Math.random() * 91) + 1);
+maneaNumber = (Math.floor(Math.random() * 100) + 1);
 
 /* Toate manelele o sa aiba ca path serverul meu, manelizor.darius1.xyz daca nu faci variabilele urmatoare: 
 

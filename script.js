@@ -60,7 +60,7 @@ setTimeout(maneaList, 0);
 
 
 function maneaList() {
-maneaNumber = (Math.floor(Math.random() * 100) + 1);
+maneaNumber = (Math.floor(Math.random() * 101) + 1);
 
 /* Toate manelele o sa aiba ca path serverul meu, manelizor.darius1.xyz daca nu faci variabilele urmatoare: 
 
@@ -600,6 +600,11 @@ maneaUrl = "Lvqb_vs2wW4";
 maneaName = "Dani Mocanu - Camora";
 maneaNametw = "Dani%20Mocanu%20-%20Camora%20Official%20Video.mp3";
 maneaUrl = "K5Q-ZJyhckg";
+} else if (maneaNumber == 101) {
+/* Manea numarul 101 */
+maneaName = "Marius de la Focsani - Patru puncte cardinale";
+maneaNametw = "Marius%20de%20la%20Focsani%20-%20Patru%20puncte%20cardinale.mp3";
+maneaUrl = "Ty8LIWqLKRI";
 }
 setTimeout(maneaRandom, 5);
 }

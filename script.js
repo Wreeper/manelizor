@@ -603,7 +603,7 @@ maneaUrl = "K5Q-ZJyhckg";
 } else if (maneaNumber == 101) {
 /* Manea numarul 101 */
 maneaName = "Marius de la Focsani - Patru puncte cardinale";
-maneaNametw = "Marius%20de%20la%20Focsani%20-%20Patru%20puncte%20cardinale.mp3";
+maneaNametw = "MARIUS%20DE%20LA%20FOCSANI%20-%20PATRU%20PUNCTE%20CARDINALE.mp3";
 maneaUrl = "Ty8LIWqLKRI";
 }
 setTimeout(maneaRandom, 5);

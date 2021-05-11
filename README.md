@@ -1,5 +1,5 @@
 # <a href="https://github.com/Wreeper/manelizor">manelizor</a>
-[RO] API pentru manele random.
+API pentru manele random.
 # Cum se foloseste?
 1. Inserati codul acesta in fisierul .html sau .php. 
 ```<script src="https://manelizor.darius1.xyz/script.js"></script>```

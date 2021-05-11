@@ -1,4 +1,4 @@
-# manelizor
+# <a href="https://github.com/Wreeper/manelizor">manelizor</a>
 [RO] API pentru manele random.
 # Cum se foloseste?
 1. Inserati codul acesta in fisierul .html sau .php. 

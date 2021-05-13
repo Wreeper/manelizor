@@ -8,9 +8,6 @@ Discord: wreeper#7997
 YouTube channel: https://youtube.com/c/DariusGamingOfficial
 GitHub repository: https://github.com/Wreeper/manelizor/
 
-Multumiri speciale:
-Rmly @ rmly.dev - Hosting darius1.xyz & fisierul original de pe YouTube al melodiei "Curwa" care nu putea fi descarcat cu API normal din cauza restrictiei de varsta.
-
 
 (!) Dani Mocanu a dezactivat redarea pe alte site-uri a videoclipurilor sale. Asta inseamna ca variabila "maneaUrlEmbed" va fi nefolositoare in cazul clipurillor cu el. Puteti insa sa faceti redirect.
 
@@ -87,7 +84,7 @@ console.log("Server manele negasit.\nServerul a fost setat in " + servermanele +
 }
 
 if (pathmanele == undefined) {
-pathmanele = "manele/";
+pathmanele = "";
 console.log("Folder manele nu a fost setat.\nFolderul a fost setat in " + pathmanele + " .\nFull path: " + servermanele + pathmanele + "\nPentru a-ti seta propria cale de manele pune asta in cod:\n\n<script>\nvar pathmanele = \"/unde/iti/sunt/localizate/manelele\";\n<\/script>");
 }
 
@@ -188,7 +185,6 @@ maneaNametw = "Dani%20Mocanu%20-%20Campion%20Official%20Video.mp3";
 maneaUrl = "YNwstIYL2rg";
 } else if (maneaNumber == 19) {
 /* Manea numarul 19 */
-/* Multumiri speciale lui Rmly de la rmly.dev pentru obtinerea acestui fisier. */
 maneaName = "Dani Mocanu - Curwa";
 maneaNametw = "DANI%20MOCANU-CURWA%20OFFICIAL%20VIDEO%20PAMFLET.mp3";
 maneaUrl = "bKB1USWjfjY";

@@ -42,24 +42,35 @@ Adaugate manelele
 
 
 
-var servermanele;
-var pathmanele;
+var servermanele = "https://manelizor.970079.xyz/";
+var pathmanele = "manele";
 
 var maneaNumber = 0;
-var maneaLocation = undefined;
+var maneaLocation;
 var maneaName;
 var maneaNametw;
 var maneaUrl;
 var maneaUrlLink;
 var maneaUrlEmbed;
 
-setTimeout(maneaList, 0);
+setTimeout(regen, 0);
 
-
-function maneaList() {
+function regen() {
 maneaNumber = (Math.floor(Math.random() * 101) + 1);
 
-/* Toate manelele o sa aiba ca path serverul meu, manelizor.darius1.xyz daca nu faci variabilele urmatoare: 
+if (maneaNumber == undefined) {
+console.log("Eroare la generare: numarul are valoare nula. Se regenereaza numarul, asteptati...");
+setTimeout(regen, 0);
+} else if (maneaNumber == 0) {
+console.log("Eroare la generare: numarul este egal cu 0. Se regenereaza numarul, asteptati...");
+setTimeout(regen, 0);
+} else {
+setTimeout(maneaList, 0);
+}
+}
+
+function maneaList() {
+/* Toate manelele o sa aiba ca path serverul meu daca nu faci variabilele urmatoare: 
 
 var servermanele = "https://serverultau"
 var pathmanele = "/unde/iti/sunt/localizate-manelele"
@@ -70,21 +81,13 @@ Lista cu manelele o poti descarca de pe github la manelizor.
 
 */
 
-if (maneaNumber == undefined) {
-console.log("Ceva gresit s-a intamplat cu configuratia dvs.\nProblema exacta: Numarul de manea nu este definit.\nCe posibil trebuie fixat: Generarea de numar aleator");
-}
-
-if (maneaNumber == 0) {
-console.log("Ceva gresit s-a intamplat cu configuratia dvs.\nProblema exacta: Numarul de manea este egal cu 0.\nCe posibil trebuie fixat: Generarea de numar aleator");
-}
-
 if (servermanele == undefined) {
-servermanele = "https://manelizor.darius1.xyz/";
+servermanele = "https://manelizor.970079.xyz/";
 console.log("Server manele negasit.\nServerul a fost setat in " + servermanele + "\nPentru a-ti seta propriul server pune asta in cod:\n\n<script>\nvar servermanele = \"serverultau\";\n<\/script>");
 }
 
 if (pathmanele == undefined) {
-pathmanele = "";
+pathmanele = "manele";
 console.log("Folder manele nu a fost setat.\nFolderul a fost setat in " + pathmanele + " .\nFull path: " + servermanele + pathmanele + "\nPentru a-ti seta propria cale de manele pune asta in cod:\n\n<script>\nvar pathmanele = \"/unde/iti/sunt/localizate/manelele\";\n<\/script>");
 }
 
@@ -611,5 +614,5 @@ function maneaRandom() {
 maneaUrlLink = "https://youtu.be/" + maneaUrl;
 maneaUrlEmbed = "https://youtube.com/embed/" + maneaUrl;
 maneaLocation = servermanele+pathmanele+maneaNametw;
-console.log("=======================\n\nManelizor de Wreeper v1.0 incarcat cu succes.\nDiscord: wreeper#7997\nYouTube: https://youtube.com/c/DariusGamingOfficial/\nGitHub repository: https://github.com/Wreeper/manelizor\n\n=======================");
+console.log("=======================\n\nManelizor de Wreeper v1.0 incarcat cu succes.\nDiscord: wreeper#7997\nYouTube: https://youtube.com/c/DariusGamingOfficial/\nGitHub repository: https://github.com/Wreeper/manelizor\nManea aleatorie: " + maneaName + "\n=======================");
 }

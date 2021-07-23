@@ -3,6 +3,7 @@ Javascript pentru manele random.
 # Cum se foloseste?
 1. Instalati Manelizor:
 Development - ```<script src="https://manelizor.970079.xyz/script.js"></script>```
+
 Production - ```<script src="https://manelizor.970079.xyz/script.min.js"></script>```
 
 Este recomandat sa folositi versiunea Production.

@@ -43,7 +43,7 @@ Adaugate manelele
 
 
 var servermanele = "https://manelizor.970079.xyz/";
-var pathmanele = "manele";
+var pathmanele = "";
 
 var maneaNumber = 0;
 var maneaLocation;

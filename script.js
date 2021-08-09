@@ -42,7 +42,7 @@ Adaugate manelele
 
 
 
-var servermanele = "https://manelizor.970079.xyz/";
+var servermanele = "https://manelizor.wreeper.top/";
 var pathmanele = "";
 
 var maneaNumber = 0;
@@ -82,7 +82,7 @@ Lista cu manelele o poti descarca de pe github la manelizor.
 */
 
 if (servermanele == undefined) {
-servermanele = "https://manelizor.970079.xyz/";
+servermanele = "https://manelizor.wreeper.top/";
 console.log("Server manele negasit.\nServerul a fost setat in " + servermanele + "\nPentru a-ti seta propriul server pune asta in cod:\n\n<script>\nvar servermanele = \"serverultau\";\n<\/script>");
 }
 

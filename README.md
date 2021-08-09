@@ -3,9 +3,9 @@ Javascript pentru manele random.
 # Cum se foloseste?
 1. Instalati Manelizor:
 
-Development - ```<script src="https://manelizor.970079.xyz/script.js"></script>```
+Development - ```<script src="https://manelizor.wreeper.top/script.js"></script>```
 
-Production - ```<script src="https://manelizor.970079.xyz/script.min.js"></script>```
+Production - ```<script src="https://manelizor.wreeper.top/script.min.js"></script>```
 
 
 
@@ -19,4 +19,4 @@ Manelisti suportati: Dani Mocanu (deocamdata!)
 
 Un exemplu de website ce foloseste script-ul:
 
-<a href="https://rm.970079.xyz">rm.970079.xyz</a> - redirect catre o manea random folosind manelizor
+<a href="https://rm.wreeper.top">rm.wreeper.top</a> - redirect catre o manea random folosind manelizor

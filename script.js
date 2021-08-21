@@ -1,10 +1,10 @@
 /* 
-Manelizor Script
+Name: ManelizorScript
 Description: API Manele Random pe website.
 Author: Wreeper
 Version: 1.0
 
-Discord: wreeper#7997
+Discord: wreeper#0900
 YouTube channel: https://youtube.com/c/DariusGamingOfficial
 GitHub repository: https://github.com/Wreeper/manelizor/
 
@@ -614,5 +614,5 @@ function maneaRandom() {
 maneaUrlLink = "https://youtu.be/" + maneaUrl;
 maneaUrlEmbed = "https://youtube.com/embed/" + maneaUrl;
 maneaLocation = servermanele+pathmanele+maneaNametw;
-console.log("=======================\n\nManelizor de Wreeper v1.0 incarcat cu succes.\nDiscord: wreeper#7997\nYouTube: https://youtube.com/c/DariusGamingOfficial/\nGitHub repository: https://github.com/Wreeper/manelizor\nManea aleatorie: " + maneaName + "\n=======================");
+console.log("=======================\n\nManelizor de Wreeper v1.0 incarcat cu succes.\nDiscord: wreeper#0900\nYouTube: https://youtube.com/c/DariusGamingOfficial/\nGitHub repository: https://github.com/Wreeper/manelizor\nManea aleatorie: " + maneaName + "\n=======================");
 }

@@ -609,6 +609,11 @@ maneaUrl = "Ty8LIWqLKRI";
 maneaName = "Nicolae Guta si Modjo - Grad de smecherie";
 maneaNametw = "NICOLAE%20GUTA%20si%20MODJO%20-%20Grad%20de%20smecherie.mp3";
 maneaUrl = "-a7UZy_fD4g";
+} else if (maneaNumber == 103) {
+/* Manea numarul 103 */
+maneaName = "Nicolae Guta - Alo, alo ambulanta";
+maneaNametw = "Nicolae%20Guta%20Alo%20Ambulanta.mp3";
+maneaUrl = "UuJzrg8bW2c";
 }
 setTimeout(maneaRandom, 5);
 }

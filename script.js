@@ -56,7 +56,7 @@ var maneaUrlEmbed;
 setTimeout(regen, 0);
 
 function regen() {
-maneaNumber = (Math.floor(Math.random() * 101) + 1);
+maneaNumber = (Math.floor(Math.random() * 102) + 1);
 
 if (maneaNumber == undefined) {
 console.log("Eroare la generare: numarul are valoare nula. Se regenereaza numarul, asteptati...");
@@ -604,6 +604,11 @@ maneaUrl = "K5Q-ZJyhckg";
 maneaName = "Marius de la Focsani - Patru puncte cardinale";
 maneaNametw = "MARIUS%20DE%20LA%20FOCSANI%20-%20PATRU%20PUNCTE%20CARDINALE.mp3";
 maneaUrl = "Ty8LIWqLKRI";
+} else if (maneaNumber == 102) {
+/* Manea numarul 102 */
+maneaName = "Nicolae Guta si Modjo - Grad de smecherie";
+maneaNametw = "NICOLAE%20GUTA%20si%20MODJO%20-%20Grad%20de%20smecherie.mp3";
+maneaUrl = "-a7UZy_fD4g";
 }
 setTimeout(maneaRandom, 5);
 }

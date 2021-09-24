@@ -1,10 +1,11 @@
 /* 
 Name: ManelizorScript
-Description: API Manele Random pe website.
-Author: Wreeper
-Version: 1.0
+Description: JavaScript Manele Random pe website.
+Author: Wreeper at https://wreeper.top/
+Version: 1.1
 
 Discord: wreeper#0900
+Website: https://wreeper.top/
 YouTube channel: https://youtube.com/c/DariusGamingOfficial
 GitHub repository: https://github.com/Wreeper/manelizor/
 
@@ -93,7 +94,6 @@ console.log("Folder manele nu a fost setat.\nFolderul a fost setat in " + pathma
 
 if (maneaNumber == 1) {
 /* Manea numarul 1 */
-/* Ahahaha, de cate ori m-a prins Etupilaker cu "afaceri ilegale" ca cumparam avere B-Hood cu conturi de minecraft. Apropo, ce s-a mai intamplat cu B-Hood? */
 maneaName = "Dani Mocanu - Afaceri ilegale";
 maneaNametw = "Dani%20Mocanu%20-%20Afaceri%20Ilegale%20HIT%202014.mp3";
 maneaUrl = "Ghf8pyjLacE";
@@ -177,7 +177,6 @@ maneaNametw = "DANI MOCANU%20-%20Eu%20nu%20dau%20inapoiCOVER.mp3";
 maneaUrl = "wn1OsMSc61I";
 } else if (maneaNumber == 17) {
 /* Manea numarul 17 */
-/* dar eu da ... pe league of legends, ce credeai? ca joc nasus tank si trb sa ma bag pt echipa */
 maneaName = "Dani Mocanu - Eu nu ma las batut";
 maneaNametw = "Dani%20Mocanu%20-%20Eu%20nu%20ma%20las%20batut%20Official%20Video.mp3";
 maneaUrl = "IvidImBgQi4";
@@ -614,7 +613,18 @@ maneaUrl = "-a7UZy_fD4g";
 maneaName = "Nicolae Guta - Alo, alo ambulanta";
 maneaNametw = "Nicolae%20Guta%20Alo%20Ambulanta.mp3";
 maneaUrl = "UuJzrg8bW2c";
+} else if (maneaNumber == 104) {
+/* Manea numarul 104 */
+maneaName = "Florin Salam - Buzunarul meu vorbeste";
+maneaNametw = "Florin%20Salam%20Buzunarul%20Vorbeste.mp3";
+maneaUrl = "nbsZAIkG9Hs";
+} else if (maneaNumber == 105) {
+/* Manea numarul 105 */
+maneaName = "Nicolae Guta si Modjo - Ori o pun, ori nu o pun";
+maneaNametw = "Nicolae%20Guta%20si%20Modjo%20Ori%20o%20pun%20ori%20nu.mp3";
+maneaUrl = "0u-XkBEfu70";
 }
+
 setTimeout(maneaRandom, 5);
 }
 
